@@ -1,0 +1,24 @@
+//
+//  VideoHeader.pch
+//  FMRecordVideo
+//
+//  Created by qianjn on 2017/3/12.
+//  Copyright © 2017年 SF. All rights reserved.
+//
+
+#ifndef VideoHeader_pch
+#define VideoHeader_pch
+
+#import "UIColor+Hex.h"
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+//video
+#define RECORD_MAX_TIME 8.0           //最长录制时间
+#define TIMER_INTERVAL 0.05         //计时器刷新频率
+#define VIDEO_FOLDER @"videoFolder" //视频录制存放文件夹
+
+
+#endif /* VideoHeader_pch */
